@@ -14,6 +14,7 @@ RUN apt-get update -y \
     libcurl3 \
     libarchive13 \
     libavahi-compat-libdnssd1 \
+    iproute2 \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
