@@ -3,7 +3,7 @@ MAINTAINER John Klimek <jklimek@gmail.com> (@sofakng)
 
 ENV LD_LIBRARY_PATH=/opt/z-way-server/libs
 ENV PATH=/opt/z-way-server:$PATH
-ENV ZWAY_VERSION=3.0.6
+ENV ZWAY_VERSION=3.1.1
 ENV ZWAY_DIR=/opt/z-way-server
 
 # Install required packages
